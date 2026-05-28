@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local virtual environment folders (when created directly in root)
+Scripts/
+Lib/
+lib/
+lib64/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+Venv/
+ENV/
+env/
+.env
+
+# User environment / Secrets
+.env
+.env.local
+.env.*.local
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Media & Temporary files generated during processing
+*.mp4
+*.wav
+*.m4a
+temp-audio.m4a
+*.log

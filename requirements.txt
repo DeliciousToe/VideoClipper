@@ -1,0 +1,47 @@
+# ==========================================
+# VideoClipper Core Dependencies
+# ==========================================
+
+# Interactive Web UI
+streamlit>=1.34.0
+
+# Video Slicing & Frame Editing (v1.x/v2.x Dual Compatible)
+moviepy>=1.0.3
+
+# Local Speech-to-Text Transcription Engine
+faster-whisper>=1.0.1
+
+# Google Gemini Cloud Integration (Highlights & Transcription)
+google-generativeai>=0.5.2
+
+# Image Processing, Custom Font overlays & Graphics
+Pillow>=10.0.0
+
+# Computer Vision & Image Resize filters (Lanczos4/Cubic)
+opencv-python>=4.9.0
+
+# AI Face Tracking Auto-Reframing Model
+mediapipe>=0.10.11
+
+# Secure Environment Variables management
+python-dotenv>=1.0.1
+
+
+# ==========================================================
+# EXTERNAL SYSTEM PREREQUISITES & INSTALLATION INSTRUCTIONS
+# ==========================================================
+#
+# 1. FFmpeg (Mandatory for high-performance audio & video processing)
+#    - Windows: Install via PowerShell:
+#        winget install ffmpeg
+#      Or download precompiled builds: https://www.gyan.dev/ffmpeg/builds/
+#    - macOS: Install via Homebrew:
+#        brew install ffmpeg
+#    - Linux: Install via system package manager:
+#        sudo apt install ffmpeg
+#
+# 2. NVIDIA CUDA Toolkit (Optional: Dramatically speeds up Local Whisper)
+#    - To run Local Whisper on NVIDIA GPU, download CUDA:
+#        https://developer.nvidia.com/cuda-downloads
+#    - Verify installation in terminal by running:
+#        nvcc --version
